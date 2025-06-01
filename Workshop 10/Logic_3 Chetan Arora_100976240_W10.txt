@@ -1,0 +1,50 @@
+Name: - Chetan Arora 						 
+Student ID-100976240
+Subject-Applied Problem Solving (APS-145)
+Group-3 Member-6
+
+logic 3
+
+1. Start
+
+2. Declare width, length, height, doorWidth, windowWidth, doorLength, windowLength, doorArea, windowArea, totalArea, area
+
+3. prompt user to input width
+
+4. prompt user to input height
+
+5. prompt user to input length
+
+6. Do you have doors that doesn't need to be painted? 
+	a. Yes, go to the step 7	 
+	b. No, go to step 10
+
+7. prompt user to input doorWidth
+	doorWidth += doorWidth
+
+8. prompt user to input doorLength
+	doorLength += doorLength
+
+9. Do you have another door? 
+	a. Yes, go to step 7
+	b. No, go to the step 10
+
+10. Do you have windows that doesn't need to be painted? 
+	a. Yes, go to the step 11
+	b. No, go to step 13
+
+11. prompt user to input windowWidth
+	windowWidth += windowWidth
+
+12. prompt user to input windowLength
+	windowLength += windowLength
+
+13. doorArea = doorWidth * doorLength
+
+14. windowArea = windowWidth * windowLength
+
+15. Area with windows and doors area = (width + length) *2 * height + width * length
+
+16. totalArea = area - doorArea - windowArea
+
+17. End
